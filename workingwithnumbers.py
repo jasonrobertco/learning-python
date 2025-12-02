@@ -18,4 +18,8 @@ print(round(3.7))
 
 #importing external code into file
 
-from math import *
+from math import * #imports external code
+
+print(floor(3.7)) #3 unconditional round down
+print(ceil(3.7)) #4 unconditional round up
+print(sqrt(36)) #sqrt
